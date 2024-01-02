@@ -37,9 +37,7 @@ const Navbar = () => {
           <h1 className="nav-logo font-body font-black text-2xl ">jan.dev</h1>
         </Link>
         <ul
-          className={`hidden  md:${
-            scrollPosition > 0 ? "flex" : "hidden"
-          } gap-10 font-body text-sm items-center transition-all`}
+          className={`flex  gap-10 font-body text-sm items-center transition-all`}
         >
           <li className="hover:font-bold transition-all">
             <a href="#home">Home</a>
