@@ -40,12 +40,12 @@ const About = () => {
       <div
         className={` ${
           theme.darkMode ? "bg-off-white text-black" : "bg-black text-off-white"
-        } min-h-screen w-full relative  `}
+        } min-h-screen w-full relative  transition-all `}
         id="about"
       >
         <div className="content-container w-11/12 md:w-10/12 mx-auto text-center pt-36">
           <h1 className=" font-body font-bold text-5xl">ABOUT ME</h1>
-          <p className="font-body mt-20 text-base text-center">
+          <p className="font-body mt-20 text-base lg:text-lg text-center">
             Hello, I'm <strong>Chris Jan Beboso</strong>, a Computer Engineering
             graduate from PUP Biñan Campus. I have a strong passion for web
             development and graphic design. I enjoy creating and designing
@@ -56,7 +56,7 @@ const About = () => {
         </div>
         <div className="grid-container absolute  w-10/12 mx-auto left-0 right-0 pb-20 ">
           <div className="grid grid-cols-1 lg:grid-cols-2 mt-20 gap-8">
-            <div className="skill-card bg-white text-black flex flex-col justify-center items-center font-body px-10 pt-10 pb-20 rounded-xl shadow-xl">
+            <div className="skill-card bg-white text-black flex flex-col justify-center items-center font-body px-6 pt-6 pb-16 md:px-10 md:pt-10 md:pb-20 rounded-xl shadow-xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="110"
@@ -76,19 +76,19 @@ const About = () => {
                 tools, I create websites that are interactive and work well with
                 different external services.
               </p>
-              <div className="icons-container flex flex-wrap justify-center gap-9 mt-10 w-11/12">
+              <div className="icons-container flex flex-wrap justify-center gap-8 md:gap-9 mt-10 w-11/12">
                 {iconsWebDev.map((icon, index) => (
                   <img
                     src={icon.path}
                     alt=""
                     key={index}
-                    className=" w-auto h-10 cursor-pointer"
+                    className=" w-auto h-8 md:h-10 cursor-pointer"
                   />
                 ))}
               </div>
             </div>
 
-            <div className="skill-card bg-white text-black flex flex-col justify-center items-center font-body px-10 pt-10 pb-20 rounded-xl shadow-xl">
+            <div className="skill-card bg-white text-black flex flex-col justify-center items-center font-body px-6 pt-6 pb-16 md:px-10 md:pt-10 md:pb-20 rounded-xl shadow-xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="110"
@@ -110,13 +110,13 @@ const About = () => {
                 also make captivating posters and engaging web designs. My
                 design aesthetic is all about minimalism and brutalism.
               </p>
-              <div className="icons-container flex flex-wrap justify-center gap-9 mt-10 w-11/12">
+              <div className="icons-container flex flex-wrap justify-center gap-8 md:gap-9 mt-10 w-11/12">
                 {iconsGraphics.map((icon, index) => (
                   <img
                     src={icon.path}
                     alt=""
                     key={index}
-                    className=" w-auto h-10 cursor-pointer"
+                    className=" w-auto h-8 md:h-10 cursor-pointer"
                   />
                 ))}
               </div>
