@@ -9,6 +9,7 @@ const Home = () => {
       className={` ${
         theme.darkMode ? "bg-black" : "bg-off-white"
       } max-w-full min-h-screen container  flex justify-center items-center transition-all`}
+      id="home"
     >
       <div className=" w-11/12 md:w-10/12 mx-auto grid md:grid-cols-2 gap-14 md:gap-5 grid-cols-1 my-36 md:my-0 ">
         <div className="picture-container  flex md:justify-end justify-center ">

@@ -10,7 +10,6 @@ const Projects = () => {
       className={`min-h-screen w-full ${
         theme.darkMode ? "bg-black" : "bg-off-white"
       } pb-40 transition-all`}
-      id="projects"
     >
       <div className="container w-10/12 mx-auto ">
         <div className="divider h-screen "></div>
@@ -20,6 +19,7 @@ const Projects = () => {
           className={`title-div flex justify-between text-center flex-col md:flex-row  ${
             theme.darkMode ? "text-white" : "text-black"
           }  transition-all`}
+          id="projects"
         >
           <h1 className={`font-body font-extrabold uppercase text-6xl `}>
             Projects
@@ -30,7 +30,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="card-container mt-20 grid grid-cols-2 gap-10">
+        <div className="card-container mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10">
           {projects.map((project, index) => (
             <Card
               key={index}

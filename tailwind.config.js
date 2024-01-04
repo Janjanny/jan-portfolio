@@ -3,10 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      black: "#171717",
+      black: "#202021",
       white: "#ffffff",
       "off-white": "#F8F8F8",
-      "dark-card": "#404040",
+      "dark-card": "#29292B",
       purple: "#3f3cbb",
       midnight: "#121063",
       metal: "#565584",
