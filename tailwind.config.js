@@ -16,6 +16,7 @@ export default {
       bermuda: "#78dcca",
       slate: "#f1f5f9",
       gray: "#374151",
+      "gray-500": "#6b7280",
     },
     extend: {},
     fontFamily: {
