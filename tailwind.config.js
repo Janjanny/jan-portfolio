@@ -3,7 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      black: "#202021",
+      black: "#18181b",
       white: "#ffffff",
       "off-white": "#F8F8F8",
       "dark-card": "#29292B",

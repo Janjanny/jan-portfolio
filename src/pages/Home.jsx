@@ -1,5 +1,6 @@
 import Profile from "../assets/profile.png";
 import { useSelector } from "react-redux";
+import "boxicons";
 
 const Home = () => {
   const theme = useSelector((state) => state.theme);
@@ -57,7 +58,7 @@ const Home = () => {
               <a
                 href="https://github.com/Janjanny"
                 target="_blank"
-                className=""
+                className=" hover:-translate-y-2 transition-all "
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +76,7 @@ const Home = () => {
               </a>
               <a
                 href="https://www.linkedin.com/in/chris-jan-beboso-3325b115a/"
-                className=""
+                className=" hover:-translate-y-2 transition-all "
                 target="blank"
               >
                 <svg
@@ -89,7 +90,11 @@ const Home = () => {
                 </svg>
               </a>
 
-              <a href="https://www.facebook.com/chrisjanbeboso" target="blank">
+              <a
+                href="https://www.facebook.com/chrisjanbeboso"
+                target="blank"
+                className=" hover:-translate-y-2 transition-all "
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"

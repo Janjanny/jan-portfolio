@@ -47,7 +47,8 @@ const Contact = () => {
     <div
       className={`contact-container w-full min-h-screen ${
         theme.darkMode ? "bg-black" : "bg-off-white "
-      } pt-20 pb-40`}
+      } pt-20 pb-52`}
+      id="contact"
     >
       <div className="form-container grid grid-cols-1 lg:grid-cols-2 w-10/12 mx-auto shadow-xl rounded-xl overflow-hidden ">
         <div className="illustration-div  bg-dark-card p-12 pb-0 flex flex-col justify-center items-center overflow-hidden">
