@@ -11,7 +11,13 @@ const Card = ({ image, name, websiteLink, description, githubLink, type }) => {
       } shadow-lg w-full h-full px-5 py-7 md:px-8 md:py-10 rounded-xl transition-all`}
     >
       <div className="pic-container w-full h-48 md:h-60 overflow-hidden rounded-xl">
-        <img src={image} alt="" className=" object-cover w-full h-full" />
+        <img
+          src={image}
+          alt="project_image"
+          className=" object-cover w-full h-full"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
       <div className="text-container w-11/12 mt-7">
         <a href={websiteLink} target="_blank">

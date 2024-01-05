@@ -50,7 +50,7 @@ const Contact = () => {
       } pt-20 pb-52`}
       id="contact"
     >
-      <div className="form-container grid grid-cols-1 lg:grid-cols-2 w-10/12 mx-auto shadow-xl rounded-xl overflow-hidden ">
+      <div className="form-container grid grid-cols-1 lg:grid-cols-2 w-11/12 md:w-10/12 mx-auto shadow-xl rounded-xl overflow-hidden ">
         <div className="illustration-div  bg-dark-card p-12 pb-0 flex flex-col justify-center items-center overflow-hidden">
           <h1 className=" text-off-white font-body font-bold text-center text-4xl sm:text-5xl uppercase">
             Contact Me

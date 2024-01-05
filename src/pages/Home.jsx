@@ -19,6 +19,10 @@ const Home = () => {
               src={Profile}
               alt="profile"
               className=" w-full h-full object-cover"
+              loading="lazy"
+              role="presentation"
+              decoding="async"
+              fetchpriority="high"
             />
           </div>
         </div>
