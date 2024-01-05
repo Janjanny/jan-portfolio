@@ -51,7 +51,7 @@ const Contact = () => {
       id="contact"
     >
       <div className="form-container grid grid-cols-1 lg:grid-cols-2 w-11/12 md:w-10/12 mx-auto shadow-xl rounded-xl overflow-hidden ">
-        <div className="illustration-div  bg-dark-card p-12 pb-0 flex flex-col justify-center items-center overflow-hidden">
+        <div className="illustration-div  bg-dark-card p-10 md:p-12 pb-0 flex flex-col justify-center items-center overflow-hidden">
           <h1 className=" text-off-white font-body font-bold text-center text-4xl sm:text-5xl uppercase">
             Contact Me
           </h1>
@@ -63,7 +63,7 @@ const Contact = () => {
             />
           </div>
         </div>
-        <div className="form-div bg-white p-12">
+        <div className="form-div bg-white p-8 md:p-12">
           <p className="text-center font-body text-base md:text-sm font-medium">
             Don't hesitate to reach out and drop me a message. I'm here to
             listen and ready to connect with you.

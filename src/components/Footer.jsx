@@ -3,9 +3,9 @@ import "boxicons";
 const Footer = () => {
   return (
     <>
-      <div className=" w-full bg-black text-off-white pt-28 pb-12 justify-center items-center">
+      <div className=" w-full bg-black text-off-white pt-28 pb-12 justify-center items-center overflow-hidden">
         <div className="footer-container w-11/12 mx-auto flex flex-col justify-center items-center">
-          <ul className="social-links text-black flex mb-8 gap-[24px]">
+          <ul className="social-links text-black flex mb-8 gap-[12px] md:gap-[24px]">
             <li>
               <a
                 href="https://www.facebook.com/chrisjanbeboso"
@@ -82,7 +82,7 @@ const Footer = () => {
             </li>
           </ul>
 
-          <ul className="footer-nav-links text-white font-body flex justify-center items-center gap-[3rem]">
+          <ul className="footer-nav-links text-white font-body flex justify-center items-center gap-6 md:gap-[3rem] text-sm md:text-base">
             <li>
               <a href="/" className="hover:font-bold transition-all ">
                 Home
@@ -106,7 +106,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="copyrights w-full bg-[#101010] text-off-white p-2 flex justify-center items-center font-body text-sm font-light">
+      <div className="copyrights w-full bg-[#101010] text-off-white p-4 flex justify-center items-center font-body text-[12px] sm:text-sm font-light cursor-default">
         Copyright @2024. Designed by Chris Jan Beboso
       </div>
     </>
