@@ -46,9 +46,9 @@ const Home = () => {
               } border-2 flex gap-2  py-1 px-5 rounded-full   transition-all items-center md:mt-0 mt-8`}
             >
               <a
-                href="../assets/resume.pdf"
-                download="Chris_Jan_CV.pdf"
-                className=" text-sm "
+                href="src/assets/ChrisJan_Beboso_Resume.pdf"
+                download="ChrisJan_Beboso_Resume.pdf"
+                className=" text-sm"
               >
                 Download CV
               </a>
