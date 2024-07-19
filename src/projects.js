@@ -3,6 +3,8 @@ import quiz from "./assets/quiz.png";
 import incubus from "./assets/incubus.png";
 import incubusDesign from "./assets/incubusDesigns.jpg";
 import weatheria from "./assets/weatheria.png";
+import links from "./assets/Links-web-app.png";
+import coinCheck from "./assets/coinc_check-web-app.png";
 
 export const projects = [
   {
@@ -42,6 +44,26 @@ export const projects = [
       "Weatheria utilizes the OpenWeather API and has been constructed using HTML, Sass, and vanilla JavaScript. Its primary function is to showcase fundamental weather information from various countries.",
     websiteLink: "https://weatheria-web-app.netlify.app/",
     githubLink: "https://github.com/Janjanny/Weatheria",
+    type: "website",
+  },
+
+  {
+    name: "Links - a bookmark website",
+    image: links,
+    description:
+      "Built with React.js, our bookmark website simplifies organizing and accessing your favorite links across all your devices.",
+    websiteLink: "https://links-app-react.vercel.app/",
+    githubLink: "https://github.com/Janjanny/MovieMate",
+    type: "website",
+  },
+
+  {
+    name: "CoinCheck - a crypto coin checker website",
+    image: coinCheck,
+    description:
+      "Using the CoinGecko API, the website offers instant access to essential details and real-time data for any cryptocurrency",
+    websiteLink: "https://coin-check-smoky.vercel.app/",
+    githubLink: "https://github.com/Janjanny/link-app-react",
     type: "website",
   },
 
